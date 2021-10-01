@@ -1,0 +1,96 @@
+body {
+  background-color: hsl(225, 100%, 94%)
+}
+
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 144%
+}
+
+h2 {
+  color: hsl(223, 47%, 23%);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 100%;
+}
+
+h3 {
+  color: hsl(223, 47%, 23%);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 70%;
+  margin-top: 40%;
+}
+
+#cancel {
+  margin:0;
+}
+
+p {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  margin: 0;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+}
+
+
+.container-fluid {
+  text-align: center;
+}
+
+.header-pic {
+  border-radius: 25px 25px 0 0;
+  margin: 30px auto auto auto;
+  width: 400px;
+}
+
+.summary-area {
+  width: 400px;
+  background-color: white;
+  margin:auto;
+  border-radius: 0 0 25px 25px;
+  padding: 40px;
+}
+
+.pricing-row {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.col-6 {
+  text-align: left;
+}
+
+.btn-block {
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border-color: hsl(245, 75%, 52%);
+  margin: 30px 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .desktop-bg {
+    display: none;
+  }
+
+  .mobile-bg {
+    display:block;
+  }
+
+  .header-pic {
+    width: 350px;
+  }
+
+  .summary-area {
+    width: 350px;
+  }
+}
